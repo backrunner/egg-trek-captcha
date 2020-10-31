@@ -12,7 +12,7 @@ npm i egg-trek-captcha --save
 
 ```js
 // {app_root}/config/plugin.js
-exports.captcha = {
+exports.trekCaptcha = {
   enable: true,
   package: 'egg-trek-captcha',
 };
@@ -22,7 +22,7 @@ exports.captcha = {
 
 ```js
 // {app_root}/config/config.default.js
-exports.captcha = {
+exports.trekCaptcha = {
   // trek-captcha options
   size: 4,
   style: -1
