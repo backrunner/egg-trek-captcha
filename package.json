@@ -8,7 +8,8 @@
   "keywords": [
     "egg",
     "eggPlugin",
-    "egg-plugin"
+    "egg-plugin",
+    "trek-captcha"
   ],
   "dependencies": {
     "trek-captcha": "^0.4.0"
@@ -27,31 +28,9 @@
     "node": ">=8.0.0"
   },
   "scripts": {
-    "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
-    "test-local": "egg-bin test",
-    "cov": "egg-bin cov",
     "lint": "eslint .",
-    "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
-    "pkgfiles": "egg-bin pkgfiles",
-    "autod": "autod"
+    "pkgfiles": "egg-bin pkgfiles"
   },
-  "files": [
-    "app.js",
-    "agent.js",
-    "config",
-    "app"
-  ],
-  "ci": {
-    "version": "8, 10"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/eggjs/egg-trek-captcha.git"
-  },
-  "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
-  },
-  "homepage": "https://github.com/eggjs/egg-trek-captcha#readme",
   "author": "BackRunner",
   "license": "MIT"
 }
