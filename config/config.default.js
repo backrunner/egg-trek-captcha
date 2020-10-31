@@ -5,6 +5,8 @@
  * @member Config#trekCaptcha
  * @property {String} SOME_KEY - some description
  */
-exports.trekCaptcha = {
-
+exports.captcha = {
+  size: 4,
+  style: -1,
+  redis: false,
 };
