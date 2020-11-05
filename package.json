@@ -1,9 +1,10 @@
 {
   "name": "egg-trek-captcha",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A captcha plugin based on trek-captcha",
   "eggPlugin": {
-    "name": "trekCaptcha"
+    "name": "trekCaptcha",
+    "optionalDependencies": [ "redis" ]
   },
   "keywords": [
     "egg",
