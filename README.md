@@ -28,6 +28,8 @@ exports.trekCaptcha = {
   style: -1
   // redis related function (need egg-redis)
   redis: false,
+  // captcha expires
+  expires: 3000,
 };
 ```
 

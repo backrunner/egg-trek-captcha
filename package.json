@@ -1,6 +1,6 @@
 {
   "name": "egg-trek-captcha",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "A captcha plugin based on trek-captcha",
   "eggPlugin": {
     "name": "trekCaptcha",
